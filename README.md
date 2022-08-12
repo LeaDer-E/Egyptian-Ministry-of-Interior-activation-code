@@ -20,7 +20,7 @@
     Mail = "أكتب إيميلك هنا"
     ID = "أكتب الرقم القومي بتاعك هنا"
 
-## ألسرعه 
+## السرعه 
 البرنامج شغال بسرعه رقم في الثانية الواحدا ، يعني الـ 1000 رقم بيدخلوا في حوالي 16 دقيقه ونص يعني لو الرساله الى مفروض تجيلك اولها رقم 0 كدا انت إحتمال كبير تخلص أول ربع ساعه لكن أولها رقم 7 مثلاً فا إنت أحتمال تخلص بعد ساعتين ونص وخمس دقايق مثلاً ^_^ 
 
 
@@ -34,7 +34,7 @@ try to restart the code or change the vedio link
 Please feel free to file an [issue][issue] if this client doesn't work as
 expected.
 
-[issue]: [https://github.com/LeaDer-E/Tiktok-Auto-Liker/issues/new](https://github.com/LeaDer-E/Egyptian-Ministry-of-Interior-activation-code/issues/new)
+[issue]: https://github.com/LeaDer-E/Tiktok-Auto-Liker/issues/new](https://github.com/LeaDer-E/Egyptian-Ministry-of-Interior-activation-code/issues/new)
 
 # Vedio on youtube
 [![Watch the video](https://user-images.githubusercontent.com/99460904/179158938-e161db4b-c111-446a-ab21-0da683a6e8d2.png)](https://www.youtube.com/watch?v=-n0BHvobq0o)
