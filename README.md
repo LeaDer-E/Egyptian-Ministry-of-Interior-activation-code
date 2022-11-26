@@ -36,7 +36,7 @@ expected.
 [issue]: https://github.com/LeaDer-E/Egyptian-Ministry-of-Interior-activation-code/issues/new
 
 # Vedio on youtube
-[![Watch the video](https://user-images.githubusercontent.com/99460904/179158938-e161db4b-c111-446a-ab21-0da683a6e8d2.png)](https://youtu.be/73mM6pC2vA0)
+[![Watch the video](https://user-images.githubusercontent.com/99460904/179158938-e161db4b-c111-446a-ab21-0da683a6e8d2.png)](https://www.youtube.com/watch?v=JTdeR4dDJuM&t=11s)
 
 
 # Support
