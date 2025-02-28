@@ -1,40 +1,75 @@
-# -
+# حل مشكلة كود التفعيل في موقع وزارة الداخلية المصرية  
+برنامج بسيط يساعدك على تخطي مشكلة كود التفعيل في موقع وزارة الداخلية المصرية. إذا كنت قد أدخلت رقم هاتف خاطئ عند التسجيل أو لم تتلقَ الكود على رقم هاتفك لأي سبب آخر، فهذا البرنامج قد يكون الحل المناسب لك.  
 
-# مشكلة كود التفعيل في موقع وزارة الداخلية المصرية
-برنامج بسيط للتحايل علي الموقع ، علشان تقدر تفتح الأكونت بتاعك علي موقع وزارة الداخلية ، لو كتبت رقم تليفونك غلط وإنت تسجل او في أي مشكلة معاك بالنسبة للكود لو مش راضضي يوصلك علي رقم تليفونك ♥
+---
 
-# هتعمل الأول Setup
-هتفتح التيرمينال بتاعك ، او الـ CMD وبعدين تـ Setup دول
+## **الإعداد الأولي (Setup)**  
 
-    pip install selenium
-    pip install undetected-chromedriver
-    pip install src
-    pip install src==0.0.6 
-    pip install webdriver_manager
-    pip3 install --upgrade requests
+### 1. **تثبيت المتطلبات الأساسية**  
+قم بفتح التيرمينال (Terminal) أو موجه الأوامر (CMD)، ثم قم بتثبيت المكتبات المطلوبة باستخدام الأوامر التالية:  
 
-# أزاي تستخدم البرنامج؟
-افتح وزارة الداخلية.py عن طريق أي برنامج تعديل زي الـ notepad مثلاً او python Idle
+```bash
+pip install selenium
+```
 
-    Mail = "أكتب إيميلك هنا"
-    ID = "أكتب الرقم القومي بتاعك هنا"
+### 2. **تحميل ChromeDriver**  
+- قم بتنزيل الإصدار المناسب من [ChromeDriver](https://chromedriver.chromium.org/downloads) بناءً على إصدار متصفح Google Chrome المثبت لديك.  
+  - للتحقق من إصدار Chrome لديك:
+    1. افتح متصفح Google Chrome.
+    2. اذهب إلى القائمة (Menu) > "Help" > "About Google Chrome".  
+    3. ستجد رقم الإصدار، مثل **Version 112.0.5615.121**.  
+  - اختر نفس الإصدار من ChromeDriver من موقع التحميل.  
 
-## السرعه 
-البرنامج شغال بسرعه رقم في الثانية الواحدا ، يعني الـ 1000 رقم بيدخلوا في حوالي 16 دقيقه ونص يعني لو الرساله الى مفروض تجيلك اولها رقم 0 كدا انت إحتمال كبير تخلص أول ربع ساعه لكن أولها رقم 7 مثلاً فا إنت أحتمال تخلص بعد ساعتين ونص وخمس دقايق مثلاً ^_^ 
+- بعد التنزيل، قم بوضع ملف ChromeDriver في نفس مجلد البرنامج.
 
+---
 
-## Known Issues
+## **كيفية استخدام البرنامج؟**  
 
-Any issues are usually because the underlying browser automation framework has a
-bug or inconsistency. Where possible, we try to cover up these underlying
-problems in the client, but sometimes workarounds require higher-level
-intervention.
-try to restart the code or change the vedio link
-Please feel free to file an [issue][issue] if this client doesn't work as
-expected.
+### 1. **تحرير ملف البرنامج**  
+افتح ملف `وزارة_الداخلية.py` باستخدام أي محرر نصوص، مثل Notepad أو Python IDLE، وعدّل الأسطر التالية لإضافة بياناتك الشخصية:  
 
-[issue]: https://github.com/LeaDer-E/Egyptian-Ministry-of-Interior-activation-code/issues/new
+```python
+email_address = "أكتب إيميلك هنا"
+national_id = "أكتب الرقم القومي بتاعك هنا"
+```
 
-# Vedio on youtube
-[![Watch the video](https://user-images.githubusercontent.com/99460904/179158938-e161db4b-c111-446a-ab21-0da683a6e8d2.png)](https://www.youtube.com/watch?v=JTdeR4dDJuM&t=11s)
+### 2. **تشغيل البرنامج**  
+- تأكد من أنك في نفس المجلد الذي يحتوي على ملف `وزارة_الداخلية.py`.  
+- قم بتشغيل البرنامج باستخدام الأمر التالي في التيرمينال أو CMD:  
 
+```bash
+python وزارة_الداخلية.py
+```
+
+---
+
+## **سرعة التنفيذ**  
+- البرنامج يحاول إرسال رقم واحد في كل ثانية.  
+- على سبيل المثال، يتم تجربة **1000 رقم** في حوالي 16 دقيقة ونصف.  
+- إذا كانت الرسالة تحتوي على رقم يبدأ بـ **0**، فهناك احتمال كبير أن تنجح المحاولات في أول ربع ساعة.  
+- أما إذا كانت الرسالة تبدأ برقم **7**، فقد يستغرق الأمر حوالي ساعتين ونصف.
+
+---
+
+## **المشاكل المعروفة (Known Issues)**  
+- قد تحدث بعض الأخطاء بسبب مشاكل في إطار عمل الأتمتة المستخدم (Selenium).  
+- في حالة مواجهة مشكلة:
+  - حاول إعادة تشغيل البرنامج.  
+  - أو تأكد من تحديث المتصفح أو تغيير الرابط المستخدم.  
+
+إذا استمرت المشكلة، يرجى تقديم بلاغ عبر الرابط التالي:  
+[تقديم مشكلة](https://github.com/LeaDer-E/Egyptian-Ministry-of-Interior-activation-code/issues/new)  
+
+---
+
+## **فيديو توضيحي على YouTube**  
+شاهد الفيديو التالي لمعرفة المزيد حول كيفية استخدام البرنامج:  
+
+[![شاهد الفيديو](https://user-images.githubusercontent.com/99460904/179158938-e161db4b-c111-446a-ab21-0da683a6e8d2.png)](https://www.youtube.com/watch?v=JTdeR4dDJuM&t=11s)  
+
+---
+
+### **تحذير**
+- يُرجى استخدام هذا البرنامج فقط لحل مشكلات حسابك الشخصية بشكل قانوني وأخلاقي.  
+- نحن غير مسؤولين عن أي استخدام غير قانوني أو غير أخلاقي لهذا البرنامج.
